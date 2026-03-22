@@ -1,0 +1,171 @@
+[
+  {
+    "title": "西红柿炒鸡蛋",
+    "category": "热菜",
+    "summary": "经典家常菜，简单快手，营养丰富",
+    "ingredients": [
+      {"name": "西红柿", "amount": "2个"},
+      {"name": "鸡蛋", "amount": "3个"},
+      {"name": "葱", "amount": "1根"},
+      {"name": "盐", "amount": "适量"},
+      {"name": "糖", "amount": "半茶匙"},
+      {"name": "食用油", "amount": "2汤匙"}
+    ],
+    "steps": [
+      {
+        "step_num": 1,
+        "action": "准备食材",
+        "detail": "西红柿洗净切块，鸡蛋打散加少许盐，葱切葱花",
+        "heat": "无",
+        "timer": 0
+      },
+      {
+        "step_num": 2,
+        "action": "炒鸡蛋",
+        "detail": "热锅下1汤匙油，倒入蛋液快速划散，凝固后盛出",
+        "heat": "中火",
+        "timer": 30
+      },
+      {
+        "step_num": 3,
+        "action": "炒西红柿",
+        "detail": "锅中再下1汤匙油，放入西红柿块翻炒至出汁",
+        "heat": "中火",
+        "timer": 60
+      },
+      {
+        "step_num": 4,
+        "action": "混合调味",
+        "detail": "加入炒好的鸡蛋，加盐和糖调味，翻炒均匀",
+        "heat": "大火",
+        "timer": 30
+      },
+      {
+        "step_num": 5,
+        "action": "出锅装盘",
+        "detail": "撒上葱花，关火装盘",
+        "heat": "无",
+        "timer": 0
+      }
+    ],
+    "tips": "加少许糖可以中和西红柿的酸味，让味道更柔和"
+  },
+  {
+    "title": "拍黄瓜",
+    "category": "凉菜",
+    "summary": "清爽开胃的夏日凉菜，5分钟搞定",
+    "ingredients": [
+      {"name": "黄瓜", "amount": "2根"},
+      {"name": "蒜", "amount": "3瓣"},
+      {"name": "生抽", "amount": "2汤匙"},
+      {"name": "陈醋", "amount": "1汤匙"},
+      {"name": "香油", "amount": "1茶匙"},
+      {"name": "糖", "amount": "半茶匙"},
+      {"name": "小米辣", "amount": "1个（可选）"}
+    ],
+    "steps": [
+      {
+        "step_num": 1,
+        "action": "处理黄瓜",
+        "detail": "黄瓜洗净，用刀背拍松散，斜切成段",
+        "heat": "无",
+        "timer": 0
+      },
+      {
+        "step_num": 2,
+        "action": "准备调料",
+        "detail": "蒜切末，小米辣切圈，所有调料混合均匀",
+        "heat": "无",
+        "timer": 0
+      },
+      {
+        "step_num": 3,
+        "action": "拌匀腌制",
+        "detail": "将调料汁淋在黄瓜上，拌匀后腌制5分钟",
+        "heat": "无",
+        "timer": 300
+      }
+    ],
+    "tips": "用刀背拍黄瓜比用刀切更容易入味，口感更好"
+  },
+  {
+    "title": "空气炸锅鸡翅",
+    "category": "空气炸锅",
+    "summary": "少油健康的炸鸡翅，外酥里嫩",
+    "ingredients": [
+      {"name": "鸡翅", "amount": "8个"},
+      {"name": "生抽", "amount": "2汤匙"},
+      {"name": "料酒", "amount": "1汤匙"},
+      {"name": "蒜粉", "amount": "1茶匙"},
+      {"name": "黑胡椒粉", "amount": "半茶匙"},
+      {"name": "盐", "amount": "适量"}
+    ],
+    "steps": [
+      {
+        "step_num": 1,
+        "action": "腌制鸡翅",
+        "detail": "鸡翅洗净划刀，所有调料混合均匀腌制30分钟",
+        "heat": "无",
+        "timer": 1800
+      },
+      {
+        "step_num": 2,
+        "action": "预热炸锅",
+        "detail": "空气炸锅200°C预热5分钟",
+        "heat": "200°C",
+        "timer": 300
+      },
+      {
+        "step_num": 3,
+        "action": "烤制鸡翅",
+        "detail": "鸡翅平铺在炸篮中，200°C烤15分钟",
+        "heat": "200°C",
+        "timer": 900
+      },
+      {
+        "step_num": 4,
+        "action": "翻面再烤",
+        "detail": "翻面后再烤5分钟至金黄酥脆",
+        "heat": "200°C",
+        "timer": 300
+      }
+    ],
+    "tips": "鸡翅划几刀更容易入味，烤制中途翻面受热更均匀"
+  },
+  {
+    "title": "芒果奶昔",
+    "category": "饮品",
+    "summary": "香甜浓郁的夏日饮品，补充维生素",
+    "ingredients": [
+      {"name": "芒果", "amount": "1个"},
+      {"name": "酸奶", "amount": "200ml"},
+      {"name": "牛奶", "amount": "100ml"},
+      {"name": "蜂蜜", "amount": "1汤匙（可选）"},
+      {"name": "冰块", "amount": "适量"}
+    ],
+    "steps": [
+      {
+        "step_num": 1,
+        "action": "准备芒果",
+        "detail": "芒果去皮去核，切成小块",
+        "heat": "无",
+        "timer": 0
+      },
+      {
+        "step_num": 2,
+        "action": "混合材料",
+        "detail": "将芒果块、酸奶、牛奶、蜂蜜放入搅拌机",
+        "heat": "无",
+        "timer": 0
+      },
+      {
+        "step_num": 3,
+        "action": "搅拌打匀",
+        "detail": "加入冰块，高速搅拌1分钟至顺滑",
+        "heat": "无",
+        "timer": 60
+      }
+    ],
+    "tips": "使用熟透的芒果更香甜，可根据喜好调整甜度"
+  }
+]
