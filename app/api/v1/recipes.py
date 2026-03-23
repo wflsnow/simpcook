@@ -31,20 +31,6 @@ async def crawl_recipe(
     return result
 
 
-@router.get("/{recipe_id}")
-async def get_recipe(
-    recipe_id: int = Path(..., description="菜谱ID"),
-    service: RecipeService = Depends(get_recipe_service)
-):
-    """根据ID获取菜谱详情"""
-    recipe = await service.get_recipe_by_id(recipe_id)
-    
-    if not recipe:
-        raise HTTPException(status_code=404, detail="菜谱不存在")
-    
-    return recipe
-
-
 @router.get("/search")
 async def search_recipes(
     keyword: str = Query("", description="搜索关键词"),
@@ -59,6 +45,20 @@ async def search_recipes(
         "total": len(recipes),
         "recipes": recipes
     }
+
+
+@router.get("/{recipe_id}")
+async def get_recipe(
+        recipe_id: int = Path(..., description="菜谱ID"),
+        service: RecipeService = Depends(get_recipe_service)
+):
+    """根据ID获取菜谱详情"""
+    recipe = await service.get_recipe_by_id(recipe_id)
+
+    if not recipe:
+        raise HTTPException(status_code=404, detail="菜谱不存在")
+
+    return recipe
 
 
 @router.get("/popular/list")
